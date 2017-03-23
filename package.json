@@ -1,0 +1,26 @@
+{
+  "name": "en3-common",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./en3-common-bundle.js",
+  "scripts": {
+    "babel": "babel --presets es2015 ./src -o ./en/en3-common.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack --watch -d"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.23.0",
+    "babel-core": "^6.23.1",
+    "babel-preset-es2015": "^6.22.0",
+    "webpack": "^2.2.1"
+  },
+  "dependencies": {
+    "extendable-immutable": "^1.3.2",
+    "immutable": "^3.8.1"
+  },
+  "files": [
+    "src"
+  ]
+}
